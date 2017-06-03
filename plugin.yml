@@ -1,0 +1,12 @@
+name: SignEditor
+main: me.d3mocracy.signedit.Main
+version: 666
+depend: [ProtocolLib]
+commands:
+  editsign:
+    description: SetSpawn Command
+permissions:
+  signedit.edit:
+    default: op
+  signedit.command:
+    default: op
